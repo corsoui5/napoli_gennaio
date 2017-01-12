@@ -1,0 +1,21 @@
+<mvc:View xmlns:core="sap.ui.core" 
+		xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+		controllerName="sap.ui.demo.wt.controller.HelloPanel"
+		xmlns:html="http://www.w3.org/1999/xhtml">
+
+					<Button text="Say Hello!" 
+							width="100px" 
+							id="__button0" 
+							press="onPress" 
+							class="myCustomButton"/>
+							
+			    	<Text	text="{/name}" 
+			    			id="__text0" 
+			    			class=" myCustomText sapUiSmallMargin sapThemeHighlight-asColor"/>
+			    			
+			    	<Input	width="100%" 
+			    			id="__input0" 
+			    			value="{/name}"/>
+
+
+</mvc:View>
